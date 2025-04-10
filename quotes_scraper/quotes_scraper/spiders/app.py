@@ -10,7 +10,6 @@ class AppSpider(scrapy.Spider):
                 "http://quotes.toscrape.com/page/2/"]
 
 
-
     # response contains the HTML of the page that Scrapy downloaded.
     # But Scrapy does not save the HTML file by default — it just loads it into memory to extract data from it.
     def parse(self, response):
